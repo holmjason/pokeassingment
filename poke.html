@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Pokemon Pokedex</title>
+        <link rel="stylesheet" href="poke.css" />
+    </head>
+    <body>
+        <div id="title-container">
+            <h1 id="title">POKEDEX</h1>
+        </div>
+        <main id="pokedex">
+            <div id="input-container"> 
+                <label id="search-label">Search Pokemon by Name or #: </label><input id="search-input" required></input>
+                <button id="search-button" class="search-button">PokeSearch</button>
+            </div>
+            <div id="pokemon-container">
+                <div>
+                    <span id="pokemon-name"></span>
+                    <span id="pokemon-id"></span>
+                </div>
+                <div>
+                    <span id="weight"></span>
+                    <span id="height"></span>
+                </div>
+                <div id="pokemon-img"></div>
+                <span id="types"></span>
+            </div>
+            <div id="stats-container">
+                <label>HP:<span id="hp"></span></label>
+                <label>Attack: <span id="attack"></span></label>
+                <label>Special Attack: <span id="special-attack"></span></label>
+                <label>Defense: <span id="defense"></span></label>
+                <label>Special Defense: <span id="special-defense"></span></label>
+                <label>Speed: <span id="speed"></span></label>
+            </div>
+        </main>
+    </body>
+    <script src="poke.js"></script>
+</html>
